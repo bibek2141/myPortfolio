@@ -59,7 +59,7 @@
 
     <main class="contactMe">
         <h1>Thanks for reaching out to me. What's on your mind ?</h1>
-        <form id="contact-form" method="post" action="contactform.php">
+        <form id="contact-form" method="post" action="/contactform.php">
 
             <div class="row">
                 <div class="col-sm-6">
