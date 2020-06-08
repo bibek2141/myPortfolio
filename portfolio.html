@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Home | My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!---Bootstap scripts-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---Font for buttons--->
+    <script src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+  </head>
+
+  <body>
+    <header>
+        <!--Navbar-->
+        <div class="container">
+          <nav>
+            <div class="logo">
+              <img src="./images/Logo.svg" alt="logo" width="50" height="40" />
+            </div>
+  
+            <div class="menu-icons open">
+              <i class="fas fa-bars fa-2x"></i>
+            </div>
+  
+            <ul class="nav-links">
+              <div class="menu-icons close">
+                  <i class="fas fa-times fa-2x"></i>
+                </div>
+              <li class="current nav-txt nav-item"><a id="navText" href="./index.html">Home</a></li>
+              <li class="nav-txt end nav-item">
+                <a id="navText correctPage" href="#">Portfolio</a>
+              </li>
+              <li class ="formBtn">
+                <form class="form-inline my-2 my-lg-25" action="contact.html">
+                  <button
+                    class="navBarBtn btn-outline-success btn-sm my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Contact Me
+                  </button>
+                </form>
+              </li>
+            </ul>   
+          </nav>
+        </div>
+      </header>
+
+    <main>
+      <section id="section1Portfolio" class="text-center">
+        <h1>Projects</h1>
+        <br />
+        <div class="container" id="first">
+          <div class="row">
+            <div class="col-sm">
+              <h6>1. Synopsis</h6>
+              <p>
+                I made this project as an additional practice after working on
+                keeper app, Authentication & Security project in Online course
+                on Udemy. Used React, Javascript, HTML, CSS, and bootstrap.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn1">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img src="./images/Synopsis.JPG" alt="Synopsis" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/Synopsis.JPG" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Synopsis</h6>
+                <p class="detailParagraph">
+                   I made this project as an additional practice after working on
+                    keeper app, Authentication & Security project in Online course
+                    on Udemy. </p>
+                    <p class="used">
+                      Used: React, Javascript, HTML, CSS, and bootstrap.
+                    </p>
+                    <a href="https://github.com/bibek2141">
+                      <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Background</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
+                    accusantium adipisci sed rerum modi pariatur fugiat minus praesentium?
+                    Vel iure quibusdam doloremque beatae minima deleniti quidem laborum, tempora quo cupiditate?</p>
+                   <h6>Previews</h6> 
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail btn-info btn-sm" >
+                View Detail of next project
+              </button>
+            </form>
+          </div>
+          
+      
+        
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm order-md-2">
+              <h6>2. To-do-List</h6>
+              <p>
+                I made this project as an additional practice after working on
+                to-do-list project, Authentication & Security project in Online
+                course on Udemy. Used HTML, CSS, Javascript, Express Js, Node
+                Js, Oauth, MongoDB, and Mongoose.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn2">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm order-md-1">
+              <img src="./images/todolist.JPG" alt="To-do-List" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/todolist.JPG" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>ToDoList</h6>
+                <p class="detailParagraph">
+                  I made this project as an additional practice after working on
+                  to-do-list project, Authentication & Security project in Online
+                  course on Udemy. </p>
+                    <p class="used">
+                      Used: HTML, CSS, Javascript, Express Js, Node
+                      Js, Oauth, MongoDB, and Mongoose
+                    </p>
+                    <a href="https://github.com/bibek2141/ToDoList">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started with Authentication.</li>
+                      <li>2.Completed List Page. </li>
+                      <li>3.Completed CSS for both Authentication and List Page.</li>
+                      <li>4.Combined both Authentication and List Page.</li>
+                    </ul>
+                  </p>
+                  <h6>Current Status</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    Currently all the logged in user can view the ToDoList page. Still working
+                    on trying to figure out how to make ToDoList page private.
+                  </p> 
+                   <h6>Previews</h6> 
+                   <div class="container">
+                     <div class="row">
+                      <div class="col-sm col-md-6">
+                        <img src="./images/todolist1.JPG" alt="" class="img-fluid">
+                        <img src="./images/todolist2.JPG" alt="" class="img-fluid">
+                       </div>
+                       <div class="col-sm col-md-6">
+                        <img src="./images/todolist3.JPG" alt="" class="img-fluid">
+                        <img src="./images/todolist4.JPG" alt="" class="img-fluid">
+                       </div>
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+        
+        <!--Weather App-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h6>3. Weather App</h6>
+              <p>
+                I made this project after learning about API in Online course on
+                Udemy.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn3">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img src="./images/Synopsis.JPG" alt="Weather" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+
+        <!--Details Weather-->
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/Synopsis.JPG" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Weather App</h6>
+                <p class="detailParagraph">
+                  I made this project as an additional practice after working on
+                  to-do-list project, Authentication & Security project in Online
+                  course on Udemy. </p>
+                    <p class="used">
+                      Used: HTML, CSS, Javascript, Express Js, Node
+                      Js, Oauth, MongoDB, and Mongoose
+                    </p>
+                    <a href="https://github.com/bibek2141/ToDoList">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started with Authentication.</li>
+                      <li>2.Completed List Page. </li>
+                      <li>3.Completed CSS for both Authentication and List Page.</li>
+                      <li>4.Combined both Authentication and List Page.</li>
+                    </ul>
+                  </p>
+                  <h6>Current Status</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    Currently all the logged in user can view the ToDoList page. Still working
+                    on trying to figure out how to make ToDoList page private.
+                  </p> 
+                   <h6>Previews</h6> 
+                   <div class="container">
+                     <div class="row">
+                      <div class="col-sm col-md-6">
+                        <img src="./images/todolist1.JPG" alt="" class="img-fluid">
+                        <img src="./images/todolist2.JPG" alt="" class="img-fluid">
+                       </div>
+                       <div class="col-sm col-md-6">
+                        <img src="./images/todolist3.JPG" alt="" class="img-fluid">
+                        <img src="./images/todolist4.JPG" alt="" class="img-fluid">
+                       </div>
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+        <!--Multi-page Landing-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm order-md-2">
+              <h6>4. Multi-Page Landing Page</h6>
+              <p>
+                This project required me to build a Multi-Page responsive
+                landing page from the designs provided. Used HTML5, CSS, and
+                Javascript to complete this challenge provided by FrontEnd
+                Mentor.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn4">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm order-md-1">
+              <img
+                src="./images/MultiPageLanding.png"
+                alt="Multi-Page Landing"
+              />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Details Multi-Page Landing-->
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/MultiPageLanding.png" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Multi-Page Landing Page</h6>
+                <p class="detailParagraph">
+                  This project required me to build a Multi-Page responsive
+                landing page from the designs provided. This is my first attempt to
+              build a Multi-Page website. </p>
+                    <p class="used">
+                      Used: HTML5, CSS,Bootstrap and Javascript
+                    </p>
+                    <a href="https://github.com/bibek2141/MultiPageLanding">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+
+                    <a href=" https://multi-page-landing.now.sh/">
+                      <i class="fas fa-external-link-square-alt fa-2x social-media" id="iconFooter"></i>
+                   </a>
+
+                   
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started building all three pages by only using HTML.</li>
+                      <li>2.Included CSS for each pages. </li>
+                      <li>3.Adding Javascript on required pages.</li>
+                    </ul>
+                  </p>
+                   <h6>Previews</h6> 
+                   <div class="container">
+                     <div class="row">
+                      <div class="col-sm col-md-6">
+                        <img src="./images/MultiPageLanding1.png" alt="" class="img-fluid">
+                        <img src="./images/MultiPageLanding2.png" alt="" class="img-fluid">                       
+                       </div>
+                       <div class="col-sm col-md-6">
+                        <img src="./images/MultiPageLanding3.png" alt="" class="img-fluid">
+                        <img src="./images/MultiPageLanding4.png" alt="" class="img-fluid">
+                       </div>
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+        <br />
+
+        <!--Senior Design Project-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h6>5. Autonomous Target Scoring Drone</h6>
+              <p>
+                This is my Senior Design Project. The main purpose of this
+                project is to make an automated target scoring drone that
+                would be able to score mortar tests. Used Python and GUI.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn7">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img src="./images/Drone.JPG" alt="Drone" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Details of My senior Design-->
+        
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/Drone.JPG" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Senior Design Project</h6>
+                <p class="detailParagraph">
+                  This is my Senior Design Project. The main purpose of this
+                project is to make an automated target scoring drone that
+                would be able to score mortar tests. </p>
+                    <p class="used">
+                      Used: Python and GUI
+                    </p>
+                    <a href="https://github.com/bibek2141/Senior-Design">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Methods of GUI.</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    The GUI is done in Python and Pycharm IDE. It consists of a simple window where 
+                    a user can enter how many locations they can go. Then the GUI will prompt the user 
+                    on entering the longitude and latitude for the locations they wish to go to. 
+                    For example, they can enter: Longitude: +40.689060 , Latitude: -74.044636 or Latitude: 
+                    40 degrees, 42 minutes, 51 seconds N ,Longitude: 74 degrees, 0 minutes, 21 seconds W. 
+                    If users wish to change the coordinates, they can click on the reset button to restart the 
+                    inputs. After entering the longitude and latitude, the user can press enter to go to those 
+                    locations. On the bottom of the screen, the user can view a  live simulation of the drone’s 
+                    flight. Example: Update: Drone is on the base, Enter longitude and latitude to go to (number of)
+                     locations. Going to the first location. Also on the GUI there is a current status on the screen 
+                     where every time a drone has made it to a certain location, it will show the checkmark.
+                      Then, there is a live update of a drone going from one location to another location. 
+                      When the drone gets to a certain location, image processing will take place.  The image that
+                       is captured by the drone is then shown on the GUI screen. Also, the GUI will read the text file 
+                       received from image processing and place the score on the screen.
+                  </p>
+                   
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+        <!--Bookmark Landing Page-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h6>6. Bookmark Landing Page</h6>
+              <p>
+                This project required me to build a responsive landing page from
+                the designs provided. Used HTML5, CSS, and Javascript to
+                complete this challenge provided by FrontEnd Mentor.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn5">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img
+                src="./images/BookMarkLandingPage.png"
+                alt="BookMarkLandingPage"
+              />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Details Bookmark Landing Page-->
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/BookMarkLandingPage.png" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Bookmark Landing Page</h6>
+                <p class="detailParagraph">
+                  This project required me to build a responsive landing page from
+                the designs provided.</p>
+                    <p class="used">
+                      Used: HTML5, CSS,Bootstrap and Javascript
+                    </p>
+                    <a href="https://github.com/bibek2141/Bookmark-Landing-Challenge">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+
+                    <a href=" https://bibek2141.github.io/Bookmark-Landing-Challenge/">
+                      <i class="fas fa-external-link-square-alt fa-2x social-media" id="iconFooter"></i>
+                   </a>
+
+                   
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started building page only using HTML.</li>
+                      <li>2.Added CSS. </li>                     
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+        <!--Manage Landing Page-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm order-md-2">
+              <h6>7. Manage Landing Page</h6>
+              <p>
+                This project required me to build a responsive landing page from
+                the designs provided. Used HTML5, CSS, and Javascript to
+                complete this challenge provided by FrontEnd Mentor.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn6">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm order-md-1">
+              <img src="./images/FrontEndMentor.png" alt="Synopsis" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Details Manage Landing-->
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/FrontEndMentor.png" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Manage Landing Page</h6>
+                <p class="detailParagraph">
+                  This project required me to build a responsive landing page from
+                the designs provided. </p>
+                    <p class="used">
+                      Used: HTML5, CSS,Bootstrap and Javascript
+                    </p>
+                    <a href="https://github.com/bibek2141/ManageLandingPage">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+
+                    <a href=" https://bibek2141.github.io/ManageLandingPage/">
+                      <i class="fas fa-external-link-square-alt fa-2x social-media" id="iconFooter"></i>
+                   </a>
+
+                   
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started building page only using HTML.</li>
+                      <li>2.Added CSS. </li>                     
+                    </ul>
+                  </p>
+                   
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+
+        
+
+        <!--Class Assignment-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm order-md-2">
+              <h6>
+                8. Interrupt-driven Input/Output on raspberry Pi 3B+ with LEDs
+                and pushbuttons
+              </h6>
+              <p>
+                This is one of the assignment from my processor
+                hardware/software interfaces class. In this assignment I was
+                required to write a python script to light up some LEDs in blink
+                mode and stop them from blinking when some events happen. Used
+                Python and Raspbessy Pi.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn8">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm order-md-1">
+              <img
+                src="./images/interrupt.JPG"
+                alt="Synopsis"
+                
+              />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Details of Class Assignment-->
+       
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/interrupt.JPG" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>8. Interrupt-driven Input/Output on raspberry Pi 3B+ with LEDs
+                  and pushbuttons</h6>
+                <p class="detailParagraph">
+                  This is one of the assignment from my processor
+                hardware/software interfaces class. In this assignment I was
+                required to write a python script to light up some LEDs in blink
+                mode and stop them from blinking when some events happen.</p>
+                    <p class="used">
+                      Used: Python and Raspberry Pi
+                    </p>
+                    <a href="https://github.com/bibek2141/Assignment4">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+                   
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Video Description</h6>
+                  <hr class="detailLine"/>
+                  <video controls>
+                      <source src ="video/Video.MOV" >
+                    </video>
+
+                </div>
+              </div>
+            </div>
+            <form class="form-inline my-2 my-lg-25" action="contact.html">
+              <button type="button" id="sideNextBtn" class="infobtn nextDetail viewDetail btn-info btn-sm" id="btn2">
+                View Detail of Next Project
+              </button>
+            </form>
+          </div>
+          
+        </div>
+
+        <!--Patient Enrollment Form-->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h6>9. Patient Enrollment Form using plain javascript.</h6>
+              <p>
+                Worked on this project as a practice to build a simple form
+                after learning javascript.
+              </p>
+              <form class="form-inline my-2 my-lg-25" action="contact.html">
+                <button type="button" class="infobtn viewDetail btn-info btn-sm" id="btn9">
+                  View Detail
+                </button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img src="./images/PatientEnrollmentForm.png" alt="Synopsis" />
+              <hr class="line" />
+            </div>
+          </div>
+        </div>
+
+        <!--Detail of patient enrollment form-->
+        <div class="detail">
+          <form class="  form-inline my-2 my-lg-25" action="contact.html">
+            <button name= "btn1" type="button" id="sideBtn" class="infobtn  closeDetail btn-info btn-sm">
+              <i class="fas fa-times fa-2x"></i>
+            </button>
+          </form>
+          <img class="ImageDetail" src="./images/PatientEnrollmentForm.png" alt="ImageDetail">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-4">
+                <h6>Patient Enrollment Form</h6>
+                <p class="detailParagraph">
+                  Worked on this project as a practice to build a simple form
+                after learning javascript. </p>
+                    <p class="used">
+                      Used: HTML5, CSS and Javascript
+                    </p>
+                    <a href="https://github.com/bibek2141/PatientEnrollmentForm">
+                       <i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+                    </a>
+
+                    <a href=" https://bibek2141.github.io/PatientEnrollmentForm/">
+                      <i class="fas fa-external-link-square-alt fa-2x social-media" id="iconFooter"></i>
+                   </a>
+
+                   
+                    <hr class="detailLine"/>
+                </div>
+
+                <div class="col-sm">
+                  <h6>Procedure</h6>
+                  <hr class="detailLine"/>
+                  <p class="detailParagraph">
+                    <ul class="procedure">
+                      <li>1.Started building page only using HTML.</li>
+                      <li>2.Added CSS. </li>  
+                      <li>3.Added Javascript</li>                   
+                    </ul>
+                  </p>
+                   
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!--View Other on Github-->
+        <h6>View Other Projects on Github.</h6>
+        <form class="form-inline my-2 my-lg"  action="contact.html">
+            <button type="button" class="infobtn  btn-info btn-sm" id="otherBtn">
+              <a href="https://github.com/bibek2141" target="_blank">View Projects</a> 
+            </button>
+          </form>
+          
+
+      </section>
+    </main>
+    <footer class="portfolio_footer">
+      <div class="logoFooter">
+        <img src="./images/Logo.svg" alt="logo" width="70" height="70" />
+        <div class="icon " >
+          <a href="https://www.linkedin.com/in/bibek-adhikari3/"
+            ><i class="fab fa-linkedin fa-2x social-media" id="iconFooter"></i>
+          </a>
+
+          <a href="https://github.com/bibek2141"
+            ><i class="fab fa-github fa-2x social-media" id="iconFooter"></i>
+          </a>
+
+          <a href="mailto:bibekadhikari2141@gmail.com">
+            <i class="fas fa-envelope fa-2x social-media" id="iconFooter"></i>
+          </a>
+
+          <p class="copyright" id="copyrightFooter">
+            Copyright ⓒ
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
