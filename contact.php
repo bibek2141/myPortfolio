@@ -80,7 +80,7 @@
             $name = $email = $subject = $message = "";
     ?>
     <script>
-    window.location = 'https://bibektest.herokuapp.com/contact.html';
+    window.location = 'https://bibektest.herokuapp.com/contact.php';
     </script>
     <?php
         }
