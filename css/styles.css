@@ -83,6 +83,21 @@ form .navBarBtn,
   border-radius: 30px;
 }
 
+form .navBarBtn,
+form .navBarBtn:hover,
+form .navBarBtn:active,
+form .navBarBtn:active:focus,
+form .navBarBtn:visited,
+form .navBarBtn:focus,
+.section-1 .resumeBtn:hover,
+.section-1 .resumeBtn:active,
+.section-1 .resumeBtn:active:focus,
+.section-1 .resumeBtn:visited,
+.section-1 .resumeBtn:focus {
+  outline: none !important;
+
+}
+
 .nav-txt {
   padding-top: 0.5rem;
 }
@@ -313,6 +328,10 @@ footer #iconFooter {
   color: #3d9970;
 }
 
+.sent {
+  padding-top: 2rem;
+}
+
 /*Contact Me*/
 .contactMe {
   background-color: #3d9970;
@@ -471,6 +490,8 @@ footer #iconFooter {
 }
 
 @media screen and (min-width: 769px) {
+
+
   header {
     padding-bottom: 3rem;
   }
